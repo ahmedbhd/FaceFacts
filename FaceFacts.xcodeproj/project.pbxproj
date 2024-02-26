@@ -19,6 +19,7 @@
 		78B4082A2B8CA09200D299EC /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B408292B8CA09200D299EC /* PeopleView.swift */; };
 		78B4082C2B8CA9FA00D299EC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B4082B2B8CA9FA00D299EC /* Event.swift */; };
 		78B4082E2B8CACA700D299EC /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B4082D2B8CACA700D299EC /* EditEventView.swift */; };
+		78B408302B8CCCFC00D299EC /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B4082F2B8CCCFC00D299EC /* Previewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		78B408292B8CA09200D299EC /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		78B4082B2B8CA9FA00D299EC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		78B4082D2B8CACA700D299EC /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		78B4082F2B8CCCFC00D299EC /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				78B4082B2B8CA9FA00D299EC /* Event.swift */,
 				78B408292B8CA09200D299EC /* PeopleView.swift */,
 				78B408272B8C86E300D299EC /* EditPersonView.swift */,
+				78B4082F2B8CCCFC00D299EC /* Previewer.swift */,
 				78B408252B8C838300D299EC /* Person.swift */,
 				78B4082D2B8CACA700D299EC /* EditEventView.swift */,
 				78B407FF2B8C82D800D299EC /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 				78B408262B8C838300D299EC /* Person.swift in Sources */,
 				78B4082A2B8CA09200D299EC /* PeopleView.swift in Sources */,
 				78B407FE2B8C82D500D299EC /* ContentView.swift in Sources */,
+				78B408302B8CCCFC00D299EC /* Previewer.swift in Sources */,
 				78B407FC2B8C82D500D299EC /* FaceFactsApp.swift in Sources */,
 				78B4082C2B8CA9FA00D299EC /* Event.swift in Sources */,
 				78B408282B8C86E300D299EC /* EditPersonView.swift in Sources */,
