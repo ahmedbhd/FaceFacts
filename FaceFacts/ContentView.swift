@@ -21,6 +21,7 @@ struct ContentView: View {
                         Text(person.name)
                     }
                 }
+                .onDelete(perform: deletePeople)
             }
             .navigationTitle("FaceFacts")
             .navigationDestination(for: Person.self) { person in
@@ -36,6 +37,13 @@ struct ContentView: View {
         let person = Person(name: "", email: "", details: "")
         modelContext.insert(person)
         path.append(person)
+    }
+    
+    func deletePeople(at offSets: IndexSet) {
+        for offset in offSets {
+            let person = people[offset]
+            modelContext.delete(person)
+        }
     }
 }
 
