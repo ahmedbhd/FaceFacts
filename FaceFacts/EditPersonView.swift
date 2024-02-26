@@ -23,7 +23,9 @@ struct EditPersonView: View {
                     .textContentType(.emailAddress)
                     .keyboardType(.emailAddress)
                     .textInputAutocapitalization(.never)
-                
+            }
+            
+            Section {
                 TextField("Details about this person", text: $person.details, axis: .vertical)
             }
         }
